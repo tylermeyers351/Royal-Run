@@ -1,0 +1,15 @@
+# Ignore temporary files
+.vs/
+.vscode/
+.idea/
+
+# Ignore Unity generated files
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+
+# Ignore Unity cache
+.unitypackage
