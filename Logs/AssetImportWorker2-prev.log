@@ -15,7 +15,7 @@ C:/Coding/Unity Projects/Royal Run
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60063
+60409
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Coding/Unity Projects/Royal Run
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [94736]  Target information:
+Player connection [98088]  Target information:
 
-Player connection [94736]  * "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2886032302 [EditorId] 2886032302 [Version] 1048832 [Id] WindowsEditor(7,Trademark-LT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [98088]  * "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3256921339 [EditorId] 3256921339 [Version] 1048832 [Id] WindowsEditor(7,Trademark-LT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [94736] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [94736] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [98088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [98088] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -91,45 +91,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006670 seconds.
-- Loaded All Assemblies, in  0.640 seconds
+Registered in 0.009018 seconds.
+- Loaded All Assemblies, in  0.760 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.527 seconds
-Domain Reload Profiling: 1163ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  0.623 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (236ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (219ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (318ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (232ms)
-				TypeCache.ScanAssembly (212ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (282ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (528ms)
+	FinalizeReload (624ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
+		SetupLoadedEditorAssemblies (552ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (58ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (230ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,395 +138,59 @@ Domain Reload Profiling: 1163ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.040 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.265 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
-Domain Reload Profiling: 1885ms
-	BeginReloadAssembly (231ms)
+- Finished resetting the current domain, in  1.052 seconds
+Domain Reload Profiling: 2308ms
+	BeginReloadAssembly (306ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (681ms)
-		LoadAssemblies (545ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (593ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (276ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (177ms)
-			BuildScriptInfoCaches (66ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (851ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (250ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1053ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (693ms)
+		SetupLoadedEditorAssemblies (842ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (552ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5908 unused Assets / (4.0 MB). Loaded Objects now: 6574.
-Memory consumption went from 158.2 MB to 154.2 MB.
-Total: 9.183000 ms (FindLiveObjects: 0.761800 ms CreateObjectMapping: 0.692600 ms MarkObjects: 5.047100 ms  DeleteObjects: 2.680500 ms)
+Unloading 5908 unused Assets / (4.7 MB). Loaded Objects now: 6575.
+Memory consumption went from 154.8 MB to 150.1 MB.
+Total: 13.032000 ms (FindLiveObjects: 0.891700 ms CreateObjectMapping: 1.286000 ms MarkObjects: 6.827300 ms  DeleteObjects: 4.025200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 875013.175679 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Rock_Small_Env_03.prefab
-  artifactKey: Guid(ea25b10905178f7438b99d067166f765) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Rock_Small_Env_03.prefab using Guid(ea25b10905178f7438b99d067166f765) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'baae4596583b61d5e01296e33753f99b') in 0.3356076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Rock_Small_Env_03.fbx
-  artifactKey: Guid(f3462c1d89d0ad646945e748e66d59a3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Rock_Small_Env_03.fbx using Guid(f3462c1d89d0ad646945e748e66d59a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32d89b66b8e903e1abd078d2cb21ad0e') in 0.0611695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Tree_Stump_Vege_01.fbx
-  artifactKey: Guid(a4f488122d768b0448979e7e0a066590) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Tree_Stump_Vege_01.fbx using Guid(a4f488122d768b0448979e7e0a066590) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbeca8babf98692a40c215696399a409') in 0.0283403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Barrel_Wooden_Prop.prefab
-  artifactKey: Guid(01b0d7cd3288fb04aa0c7ed55acafb11) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Barrel_Wooden_Prop.prefab using Guid(01b0d7cd3288fb04aa0c7ed55acafb11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd97f5f83582a2fc9c7dd7d8ee1af169') in 0.0214481 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/SM_Applesm.prefab
-  artifactKey: Guid(37cc5698a53a6bf478be4c88a8e64e9c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/SM_Applesm.prefab using Guid(37cc5698a53a6bf478be4c88a8e64e9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92f042e7c2900dfcf18488137ae37621') in 0.0225146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/SM_Powerup_Coin_Gold.fbx
-  artifactKey: Guid(e5b208f628a6a7d4898c966321977228) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/SM_Powerup_Coin_Gold.fbx using Guid(e5b208f628a6a7d4898c966321977228) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d306f2e21a91655adb90b3d071e9c63') in 0.0327373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Banner_Pole_Prop.fbx
-  artifactKey: Guid(468b86ff572c21d4e93e898cacb3c423) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Banner_Pole_Prop.fbx using Guid(468b86ff572c21d4e93e898cacb3c423) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '302471d77e1065846198aea832c39089') in 0.0464402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Animations
-  artifactKey: Guid(f328300395ce2664a86e7dcc58db76a0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Animations using Guid(f328300395ce2664a86e7dcc58db76a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43a4082ca76b7e18239dc248d361ae28') in 0.0321185 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/M_Coin.mat
-  artifactKey: Guid(895e7a4bfb7039e40ac54e86d9785961) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/M_Coin.mat using Guid(895e7a4bfb7039e40ac54e86d9785961) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f8ef818648d5f982a04d64e7609f56d') in 0.0548584 seconds
+  Time since last request: 875879.626346 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b01f82cef789461f95cdd63e4e03924b') in 0.0283502 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/LayoutGround.mat
-  artifactKey: Guid(9667f45405701664692342f822f1f027) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/LayoutGround.mat using Guid(9667f45405701664692342f822f1f027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e574a48b34a2e80ae2214280a6d6555') in 0.0208865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Cannon_Weap.fbx
-  artifactKey: Guid(8217adedfdf948541b3f4e53854b4d88) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Cannon_Weap.fbx using Guid(8217adedfdf948541b3f4e53854b4d88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '491c629009e19e6580c5cf060d06b947') in 0.0300514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Stool_Stone_Furn.fbx
-  artifactKey: Guid(68fdca81b4574914ba90548cd37c0e9b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Stool_Stone_Furn.fbx using Guid(68fdca81b4574914ba90548cd37c0e9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9433540c4cfc58f1b3b8756d31cf6716') in 0.0309022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Wooden_Beam_Prop_07.fbx
-  artifactKey: Guid(53206b7a30e661c4db1afed096c4fff7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Wooden_Beam_Prop_07.fbx using Guid(53206b7a30e661c4db1afed096c4fff7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da6f9dee71cbbe2f3928ff303194bcc2') in 0.0378693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Flag_Prop.prefab
-  artifactKey: Guid(68a853dabcdaa3445ab666d8badab23f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Flag_Prop.prefab using Guid(68a853dabcdaa3445ab666d8badab23f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23e6dd137082b834dee031feab09508c') in 0.0283321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/T_Coins_CubeVillage.png
-  artifactKey: Guid(b3386079529843c4198115538afb68a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/T_Coins_CubeVillage.png using Guid(b3386079529843c4198115538afb68a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d90e862a8c1d8740b7af9af249d9b48') in 0.0827992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/Castle-Palette-Material.mat
-  artifactKey: Guid(b20396b4a8fc9ea4598cbb3f8d4ff60d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/Castle-Palette-Material.mat using Guid(b20396b4a8fc9ea4598cbb3f8d4ff60d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38e0525160c2ee92f4ee401bae245123') in 0.0224288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Sign_Furn.prefab
-  artifactKey: Guid(5e55e605674404f4ba346895e2675cbb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Sign_Furn.prefab using Guid(5e55e605674404f4ba346895e2675cbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b3205f0bf1738ac329aa6960d80c50c') in 0.0239973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Chest_Prop.fbx
-  artifactKey: Guid(11b864780b0f3af4092d3e5228f59fbd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Chest_Prop.fbx using Guid(11b864780b0f3af4092d3e5228f59fbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2f64e2f6d63447bf8c2b482bbd88fcb') in 0.0355607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Mossy_Rock_Env_01.fbx
-  artifactKey: Guid(7d679be3d3713ff458264ba8a63ec9b9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Mossy_Rock_Env_01.fbx using Guid(7d679be3d3713ff458264ba8a63ec9b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a50073f4498722aed1a527a110a6d986') in 0.0445827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Fence_Lattice_Env_3.prefab
-  artifactKey: Guid(1656d845b8440f7499036e22fd8a8999) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Fence_Lattice_Env_3.prefab using Guid(1656d845b8440f7499036e22fd8a8999) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b015cce03563df825c1e43dc9323839f') in 0.0318915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Pillar_Bldg_01.fbx
-  artifactKey: Guid(e6a9e85339e7fce44b2f0d4dd5044014) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Pillar_Bldg_01.fbx using Guid(e6a9e85339e7fce44b2f0d4dd5044014) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfbc332541a52ca897a1452b9a7bd0c4') in 0.0302598 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/Castle-MetallicSmoothpng.png
-  artifactKey: Guid(14ccd4af4096c524290f20c0e464c27b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/Castle-MetallicSmoothpng.png using Guid(14ccd4af4096c524290f20c0e464c27b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62402497079869879b4df8163d888040') in 0.0418522 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/castle-colour-palette.png
-  artifactKey: Guid(537e3b8237afd4c4082486ad963e88a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/castle-colour-palette.png using Guid(537e3b8237afd4c4082486ad963e88a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4ff4ded07effcefdf747dd9e6399536') in 0.0457161 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Fence_Lattice_Env_3.fbx
-  artifactKey: Guid(7f3c62b05a61522409bde59e829d1510) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Fence_Lattice_Env_3.fbx using Guid(7f3c62b05a61522409bde59e829d1510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cb5eb3ebafc51f5355b3985a6e5f4a7') in 0.0307392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Imported Assets/GDTV Assets
-  artifactKey: Guid(ddb0ead78b84c794ba7608be25dde30b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets using Guid(ddb0ead78b84c794ba7608be25dde30b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bb3e207383def83b11750d54651d5d5') in 0.0155423 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures/T_VegFruitA_CubeVillage.png
-  artifactKey: Guid(0bde90d96a0405d429473faf1dc7d39d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures/T_VegFruitA_CubeVillage.png using Guid(0bde90d96a0405d429473faf1dc7d39d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1791db13490867892cb0a4e4e0d56592') in 0.0255213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Cart_Vehc.prefab
-  artifactKey: Guid(7c241ce7df21bd34199a7f79cae0a014) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Cart_Vehc.prefab using Guid(7c241ce7df21bd34199a7f79cae0a014) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bea68f7dad4b4dd4528ce719d37f97b') in 0.0278038 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Animations/Run.anim
-  artifactKey: Guid(01c2846014b42854993a9669acb51e81) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Animations/Run.anim using Guid(01c2846014b42854993a9669acb51e81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf3156472d9edb539c904019d4fc8253') in 0.0465556 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/King.prefab
-  artifactKey: Guid(dcbc89efbe5bd174b99e07c76bd0b6bf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/King.prefab using Guid(dcbc89efbe5bd174b99e07c76bd0b6bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4cfaa55d6fe97ecccb69b0b89adca2a') in 0.0321444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Wall_Cornice_Modular_01.prefab
-  artifactKey: Guid(fd377e6b49a4d1040ba1cf2817673455) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Wall_Cornice_Modular_01.prefab using Guid(fd377e6b49a4d1040ba1cf2817673455) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67216f3b10e5f699c32e49d6bf642e24') in 0.0234891 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Bench_Wooden_Furn_03.fbx
-  artifactKey: Guid(bf0db8c628ff09745993f5f06350f88c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Bench_Wooden_Furn_03.fbx using Guid(bf0db8c628ff09745993f5f06350f88c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32d4a344c2df99f3717260c4bc0ea6ed') in 0.0250287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Materials and Textures
-  artifactKey: Guid(d9b7949786886ca4fba99ad5d601822f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Materials and Textures using Guid(d9b7949786886ca4fba99ad5d601822f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09859cadceb7ad03b33489a79842a970') in 0.0153402 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Crate_Wooden_Prop.prefab
-  artifactKey: Guid(1dbc3380871ee554db4b0105cc963764) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Crate_Wooden_Prop.prefab using Guid(1dbc3380871ee554db4b0105cc963764) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84e175b520028290c3ac3ec518dd02b8') in 0.021451 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Path_Cobblestone_Env_03.fbx
-  artifactKey: Guid(0912617fbeea7cc48bd07bc266eed7c6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Path_Cobblestone_Env_03.fbx using Guid(0912617fbeea7cc48bd07bc266eed7c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5792a52f63b61ca36b45aa9592023b7') in 0.0318293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/SM_Applesm.fbx
-  artifactKey: Guid(cb51006cf02db7c4b9fbca8079ff9b9b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/SM_Applesm.fbx using Guid(cb51006cf02db7c4b9fbca8079ff9b9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70cc905c0bbbe87b3417f6ffa04cab10') in 0.0292807 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Models/Sign_Furn.fbx
-  artifactKey: Guid(f48f5770c9acc434eb3924b9575a45b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Models/Sign_Furn.fbx using Guid(f48f5770c9acc434eb3924b9575a45b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '907332fe85c74d54da58f89f8aa0fde8') in 0.0262358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Coping_Wall_Bldg_06.prefab
-  artifactKey: Guid(5f28e8a76fb078c4ab5d1543c3a3e4ae) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Coping_Wall_Bldg_06.prefab using Guid(5f28e8a76fb078c4ab5d1543c3a3e4ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ecc353f84598fe0c165bdefe9131fca2') in 0.0309792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Audio/Boulder Smash.wav
-  artifactKey: Guid(b025affaac4800d46a478597f6621056) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Imported Assets/GDTV Assets/Audio/Boulder Smash.wav using Guid(b025affaac4800d46a478597f6621056) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c7a5c95b40dd29be84ee2b45a81e928') in 0.061988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.869469 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Barrel_Wooden_Prop.prefab
-  artifactKey: Guid(01b0d7cd3288fb04aa0c7ed55acafb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Barrel_Wooden_Prop.prefab using Guid(01b0d7cd3288fb04aa0c7ed55acafb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5ccd61af2fb69d4f58e850cb23cfd9c') in 5.9661453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Wall_Cornice_Modular_01.prefab
-  artifactKey: Guid(fd377e6b49a4d1040ba1cf2817673455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Wall_Cornice_Modular_01.prefab using Guid(fd377e6b49a4d1040ba1cf2817673455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d0fdf2ff8f4ddbe4ea74609c799a7b4') in 0.0242763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Crate_Wooden_Prop.prefab
-  artifactKey: Guid(1dbc3380871ee554db4b0105cc963764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Crate_Wooden_Prop.prefab using Guid(1dbc3380871ee554db4b0105cc963764) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad529c5ea52350bdd3838e0d54e77178') in 0.022024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/Rock_Small_Env_03.prefab
-  artifactKey: Guid(ea25b10905178f7438b99d067166f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Rock_Small_Env_03.prefab using Guid(ea25b10905178f7438b99d067166f765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b537f6f66a9d5864cc5bc836a27336d2') in 0.0216357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Imported Assets/GDTV Assets/Prefabs/SM_Applesm.prefab
-  artifactKey: Guid(37cc5698a53a6bf478be4c88a8e64e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/GDTV Assets/Prefabs/SM_Applesm.prefab using Guid(37cc5698a53a6bf478be4c88a8e64e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aed360d58d9e7e7649cefae199c788ce') in 3.2491604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
