@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class LevelGenerator : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] float chunkLength = 10f;
     [SerializeField] float moveSpeed = 8f;
 
-    GameObject[] chunks =  new GameObject[12];
+    List<GameObject> chunks = new List<GameObject>();
 
     void Start()
     {
@@ -27,15 +28,31 @@ public class LevelGenerator : MonoBehaviour
             Vector3 newPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z + (chunkLength * i));
             GameObject newChunk = Instantiate(chunkPrefab, newPosition, Quaternion.identity, chunkParent);
 
-            chunks[i] = newChunk;
+            chunks.Add(newChunk);
         }
     }
 
     void MoveChunks()
     {
-        for (int i = 0; i < chunks.Length; i++)
+        for (int i = 0; i < chunks.Count; i++)
         {
-            chunks[i].transform.Translate(0, 0, moveSpeed * Time.deltaTime * -1);
+            GameObject chunk = chunks[i];
+            chunk.transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
+
+            if (chunk.transform.position.z <= Camera.main.transform.position.z - chunkLength)
+            {
+                Vector3 newPosition = chunks[chunks.Count - 1].transform.position;
+                newPosition.z += chunkLength; 
+                GameObject newChunk = Instantiate(chunkPrefab, newPosition, Quaternion.identity, chunkParent);
+
+                chunks.Add(newChunk);
+
+                chunks.Remove(chunk);
+                Destroy(chunk);
+
+                
+            }
+
         }
     }
 }

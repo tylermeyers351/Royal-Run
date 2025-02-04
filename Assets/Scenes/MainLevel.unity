@@ -584,6 +584,7 @@ MonoBehaviour:
   startingChunksAmount: 12
   chunkParent: {fileID: 199684321}
   chunkLength: 10
+  moveSpeed: 8
 --- !u!4 &1542604618
 Transform:
   m_ObjectHideFlags: 0
