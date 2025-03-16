@@ -65,10 +65,13 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.31f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Chunk.cs" />
-    <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
-    <Compile Include="Assets\Scripts\LevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCollisionHandler.cs" />
+    <Compile Include="Assets\Scripts\Proc Gen\Chunk.cs" />
+    <Compile Include="Assets\Scripts\Proc Gen\ObstacleSpawner.cs" />
+    <Compile Include="Assets\Scripts\Pickups\Pickup.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Proc Gen\ObstacleDestroy.cs" />
+    <Compile Include="Assets\Scripts\Proc Gen\LevelGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
