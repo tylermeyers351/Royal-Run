@@ -1,9 +1,26 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerCollisionHandler : MonoBehaviour
 {
-    void OnCollisionEnter(Collision other)
+    [SerializeField] Animator animator;
+    [SerializeField] float collisionTime = 1f;
+
+    bool canTrigger = true;
+    const string hitString = "Hit";
+
+    float cooldownTimer = 0f;
+
+    void Update()
     {
-        // Debug.Log(other.gameObject.name);
+        cooldownTimer += Time.deltaTime;
+    }
+
+    void OnCollisionEnter(Collision other)
+    {   
+        if (cooldownTimer < collisionTime) return;
+        
+        animator.SetTrigger(hitString);
+        cooldownTimer = 0f;
     }
 }
