@@ -6,7 +6,6 @@ public class PlayerCollisionHandler : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] float collisionTime = 1f;
 
-    bool canTrigger = true;
     const string hitString = "Hit";
 
     float cooldownTimer = 0f;
