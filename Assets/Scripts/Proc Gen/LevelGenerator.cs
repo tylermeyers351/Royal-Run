@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 public class LevelGenerator : MonoBehaviour
 {
+    [SerializeField] CameraController cameraController;
     [SerializeField] GameObject chunkPrefab;
     [SerializeField] int startingChunksAmount = 12;
     [SerializeField] Transform chunkParent;
@@ -37,6 +38,8 @@ public class LevelGenerator : MonoBehaviour
         }
 
         Physics.gravity = new Vector3(Physics.gravity.x, Physics.gravity.y, Physics.gravity.z - speedAmount);
+
+        cameraController.ChangeCameraFOV(speedAmount);
         
     }
 
