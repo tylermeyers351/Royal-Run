@@ -9,6 +9,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] float maxFOV = 85f;
     [SerializeField] float zoomDuration = 0.5f;
     [SerializeField] float zoomSpeedModifier = 5f;
+    [SerializeField] ParticleSystem particlesystem;
 
 
     CinemachineCamera cinemachineCamera;
@@ -22,6 +23,10 @@ public class CameraController : MonoBehaviour
     {
         StopAllCoroutines();
         StartCoroutine(ChangeFOVRoutine(speedAmount));
+        if (speedAmount > 0)
+        {
+            particlesystem.Play();
+        }
     }
 
     IEnumerator ChangeFOVRoutine(float speedAmount)
@@ -33,10 +38,12 @@ public class CameraController : MonoBehaviour
         
         while (elapsedTime < zoomDuration)
         {
+
             float t = elapsedTime / zoomDuration;
             elapsedTime += Time.deltaTime;
 
             cinemachineCamera.Lens.FieldOfView = Mathf.Lerp(startFOV, targetFOV, t);
+
             yield return null;
         }
 
