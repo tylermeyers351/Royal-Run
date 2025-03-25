@@ -3,10 +3,12 @@ using UnityEngine;
 
 public class Chunk : MonoBehaviour
 {
+    [Header("Prefabs")]
     [SerializeField] GameObject fencePrefab;
     [SerializeField] GameObject applePrefab;
     [SerializeField] GameObject coinPrefab;
 
+    [Header("Spawn chance")]
     [SerializeField] float appleSpawnChance = 0.3f;
     [SerializeField] float coinSpawnChance = 0.5f;
     [SerializeField] float coinSeparationLength = 2f;

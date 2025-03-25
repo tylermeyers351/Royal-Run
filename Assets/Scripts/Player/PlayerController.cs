@@ -21,8 +21,6 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 position = rb.position;
 
-        
-
         position.x = position.x + movement.x * moveSpeed * Time.deltaTime;
         position.x = Mathf.Clamp(position.x, -xClamp, xClamp);
 
