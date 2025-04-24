@@ -25,7 +25,6 @@ public class LevelGenerator : MonoBehaviour
     [SerializeField] float maxGravityZ = -2f;
 
     List<GameObject> chunks = new List<GameObject>();
-    int ChunksSpawned = 0;
 
     void Start()
     {

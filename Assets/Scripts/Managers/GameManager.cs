@@ -36,6 +36,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void AddTime(float timeAdded)
+    {
+        timeLeft += timeAdded;
+    }
+
     void PlayerGameOver()
     {
         gameOver = true;
@@ -43,4 +48,5 @@ public class GameManager : MonoBehaviour
         gameOverText.SetActive(true);
         Time.timeScale = .1f;
     }
+
 }

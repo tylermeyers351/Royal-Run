@@ -26,7 +26,7 @@ public class Chunk : MonoBehaviour
         this.levelGenerator = levelGenerator;
         this.scoreManager = scoreManager;
 
-        Debug.Log("SPAWNED INIT");
+        // Debug.Log("SPAWNED INIT");
     }
 
     void Start()
@@ -34,7 +34,7 @@ public class Chunk : MonoBehaviour
         SpawnFences();
         SpawnApple();
         SpawnCoins();
-        Debug.Log("SPAWNED START");
+        // Debug.Log("SPAWNED START");
     }
     
     void SpawnFences() 
