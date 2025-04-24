@@ -8,8 +8,6 @@ public class ScoreManager : MonoBehaviour
 
     int score = 0;
 
-
-
     public void IncreaseScore(int amount)
     {
         if (gameManager.GameOver) return;
