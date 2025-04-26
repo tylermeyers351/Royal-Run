@@ -5,6 +5,12 @@ public class Apple : Pickup
     [SerializeField] float adjustChangeMoveSpeedAmount = 2f;
     
     LevelGenerator levelGenerator;
+    PlayerController playerController;
+
+    void Start()
+    {
+        playerController = FindFirstObjectByType<PlayerController>();
+    }
 
     public void Init(LevelGenerator levelGenerator)
     {
@@ -15,5 +21,6 @@ public class Apple : Pickup
     {
         // Debug.Log("Power up!");
         levelGenerator.ChangeChunkMoveSpeed(adjustChangeMoveSpeedAmount);
+        playerController.updateMoveSpeed(1);
     }
 }

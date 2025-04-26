@@ -7,7 +7,7 @@ public class OnTriggerCheckpoint : MonoBehaviour
 
     GameManager gameManager;
     ObstacleSpawner obstacleSpawner;
-
+    
     void Start()
     {
         gameManager = FindFirstObjectByType<GameManager>();

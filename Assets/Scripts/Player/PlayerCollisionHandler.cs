@@ -11,10 +11,12 @@ public class PlayerCollisionHandler : MonoBehaviour
     float cooldownTimer = 0f;
 
     LevelGenerator levelGenerator;
+    PlayerController playerController;
 
     void Start()
     {
         levelGenerator = FindAnyObjectByType<LevelGenerator>();
+        playerController = FindFirstObjectByType<PlayerController>();
     }
 
     void Update()
@@ -29,5 +31,6 @@ public class PlayerCollisionHandler : MonoBehaviour
         levelGenerator.ChangeChunkMoveSpeed(adjustChangeMoveSpeedAmount);
         animator.SetTrigger(hitString);
         cooldownTimer = 0f;
+        playerController.updateMoveSpeed(-1);
     }
 }

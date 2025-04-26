@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     
     [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float changeMovementSpeed = 1f;
     [SerializeField] float xClamp = 4f;
     [SerializeField] float zClamp = 2f;
 
@@ -33,5 +34,10 @@ public class PlayerController : MonoBehaviour
     void Move(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
+    }
+
+    public void updateMoveSpeed(int numberSign)
+    {
+        moveSpeed += (changeMovementSpeed * numberSign);
     }
 }
