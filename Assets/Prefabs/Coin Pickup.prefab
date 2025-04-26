@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: -1406559828189039512}
   m_Layer: 0
   m_Name: Coin Pickup
-  m_TagString: Untagged
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d430aba72da777345993876aa4c18e76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 100
+  scoreAmount: 100
 --- !u!1001 &8258612324040336042
 PrefabInstance:
   m_ObjectHideFlags: 0

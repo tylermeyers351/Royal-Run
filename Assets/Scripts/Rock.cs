@@ -43,7 +43,7 @@ public class Rock : MonoBehaviour
     {
         ContactPoint contactPoint = other.contacts[0];
         collisionParticleSystem.transform.position = contactPoint.point;
-        Debug.Log("Cooldown Timer: " + cooldownTimer);
+        // Debug.Log("Cooldown Timer: " + cooldownTimer);
 
         if (cooldownTimer > cooldownMax)
         {

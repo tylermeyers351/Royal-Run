@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -6347295457197411045}
   m_Layer: 0
   m_Name: Apple Pickup
-  m_TagString: Untagged
+  m_TagString: Apple
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,6 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39dfc880ff8706d429ecb04e98b07df6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 100
+  adjustChangeMoveSpeedAmount: 2
 --- !u!1 &4154225392001354483
 GameObject:
   m_ObjectHideFlags: 0
