@@ -113,6 +113,7 @@
     <Compile Include="Assets\Scripts\Proc Gen\LevelGenerator.cs" />
     <Compile Include="Assets\Scripts\Pickups\Apple.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\Music.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

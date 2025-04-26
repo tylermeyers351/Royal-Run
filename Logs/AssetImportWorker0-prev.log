@@ -15,7 +15,7 @@ C:/Coding/Unity Projects/Royal Run
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64505
+61073
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Coding/Unity Projects/Royal Run
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27372]  Target information:
+Player connection [7204]  Target information:
 
-Player connection [27372]  * "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 1929138108 [EditorId] 1929138108 [Version] 1048832 [Id] WindowsEditor(7,Trademark-LT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7204]  * "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 2813834301 [EditorId] 2813834301 [Version] 1048832 [Id] WindowsEditor(7,Trademark-LT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27372] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27372] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7204] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7204] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.31f1 (a206c360e2a8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Resources/UnitySubsystems
@@ -91,45 +91,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005206 seconds.
-- Loaded All Assemblies, in  0.439 seconds
+Registered in 0.004910 seconds.
+- Loaded All Assemblies, in  0.408 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.347 seconds
-Domain Reload Profiling: 782ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling: 724ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (142ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (174ms)
-				TypeCache.ScanAssembly (160ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (142ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (347ms)
+	FinalizeReload (320ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (289ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (33ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,11 +141,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.824 seconds
+- Loaded All Assemblies, in  0.841 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -154,188 +154,112 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.808 seconds
-Domain Reload Profiling: 1626ms
-	BeginReloadAssembly (178ms)
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1639ms
+	BeginReloadAssembly (177ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (35ms)
 	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (550ms)
-		LoadAssemblies (396ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (401ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (260ms)
-			TypeCache.Refresh (186ms)
-				TypeCache.ScanAssembly (172ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (180ms)
 			BuildScriptInfoCaches (59ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (808ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (806ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (649ms)
+		SetupLoadedEditorAssemblies (643ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (442ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6345 unused Assets / (4.9 MB). Loaded Objects now: 7030.
-Memory consumption went from 161.7 MB to 156.8 MB.
-Total: 10.037400 ms (FindLiveObjects: 0.673000 ms CreateObjectMapping: 0.772600 ms MarkObjects: 5.393300 ms  DeleteObjects: 3.197100 ms)
+Unloading 6345 unused Assets / (5.0 MB). Loaded Objects now: 7030.
+Memory consumption went from 163.5 MB to 158.5 MB.
+Total: 11.315200 ms (FindLiveObjects: 1.525100 ms CreateObjectMapping: 1.203100 ms MarkObjects: 5.563400 ms  DeleteObjects: 3.021800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1342469.471341 seconds.
+  Time since last request: 1405629.284727 seconds.
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f503914a2c5d127c075d7f8643e90167') in 0.0221947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.656068 seconds.
+  path: Assets/Scripts/Proc Gen/Chunk.cs
+  artifactKey: Guid(20e961913e6392d4fb0dc5f7f507a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Proc Gen/Chunk.cs using Guid(20e961913e6392d4fb0dc5f7f507a796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8171fa675fe6a648231c7ffea756f43c') in 0.0005747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.802108 seconds.
+  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
+  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0643d46f5187a715ba3b47caabdf33de') in 0.5074012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/Chunks/Lightpost Right.prefab
+  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunks/Lightpost Right.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '775e0e6af24cb2bc9696fec5aece2ab8') in 0.0240312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.301323 seconds.
   path: Assets/Prefabs/Chunks/Checkpoint.prefab
   artifactKey: Guid(87768e41e2e179546999b8a902e8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Checkpoint.prefab using Guid(87768e41e2e179546999b8a902e8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6502d742b03a7a1899b79ad8f2efe58f') in 0.7140285 seconds
+Start importing Assets/Prefabs/Chunks/Checkpoint.prefab using Guid(87768e41e2e179546999b8a902e8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d51dfa74f42474dc014ef75c7795122') in 0.0837593 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 241
 
 ========================================================================
 Received Import Request.
-  Time since last request: 136.021677 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Both.prefab
-  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Both.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4d292c52820abd89383a580b41df889') in 0.0202187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 154
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Right.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Right.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc65add2f3534600b5120f544be4f46d') in 0.0223016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 165
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.606652 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Both.prefab
-  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Both.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dca3fb002aaeee917f17f265798aaaa8') in 0.0171129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.002084 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Both.prefab
-  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Both.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb79969e52bd392887a07633954683d6') in 0.0159089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 158
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.106938 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Both.prefab
-  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Both.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ff2ca6ed3df720eb5ac9e46ddbfb20') in 0.0163473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Right.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Right.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2a11a745592c0a9e1f9f595bd693f4b') in 0.0180121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 73.078755 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0183d1fb684c9abb5ea0171dc7f99baf') in 0.0172336 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.536336 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Right.prefab
-  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Right.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '812af18bc6d9f50cb3a5026fa58ca544') in 0.0174848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
-
-========================================================================
-Received Import Request.
-  Time since last request: 185.946634 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e049ef3ddeb74e977493060af6c24f58') in 0.0182853 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.356473 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4948c5747e98b773305cfdb6a6fe28d1') in 0.0172463 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 181
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Right.prefab
-  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Right.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b5c9f47e0cf7a52f4e00e8e8d303521') in 0.017121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
-
-========================================================================
-Received Import Request.
-  Time since last request: 232.053537 seconds.
-  path: Assets/Material/Lightpost Emmisive Material.mat
-  artifactKey: Guid(a7d956af9cecf9a4fb09dc3706a35734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Lightpost Emmisive Material.mat using Guid(a7d956af9cecf9a4fb09dc3706a35734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ffa44b13957cd968aac38ebda075c0') in 0.0358217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 284.511451 seconds.
-  path: Assets/Prefabs/Chunks/Checkpoint.prefab
-  artifactKey: Guid(87768e41e2e179546999b8a902e8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Checkpoint.prefab using Guid(87768e41e2e179546999b8a902e8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '300abd16ca604780fbe07852ae50b09e') in 0.0571992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 241
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
+  Time since last request: 0.000049 seconds.
   path: Assets/Prefabs/Chunks/Lightpost Left.prefab
   artifactKey: Guid(d20949cec35f6d540bf493e4d24529ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Left.prefab using Guid(d20949cec35f6d540bf493e4d24529ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '034879eaf4baa5be35a0088bf661eec9') in 0.025733 seconds
+Start importing Assets/Prefabs/Chunks/Lightpost Left.prefab using Guid(d20949cec35f6d540bf493e4d24529ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32f7253e0f90952410ad81dc5ee0fd7') in 0.0224004 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 179
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.336096 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b04306a3bcc004cac3db0c9f1692365') in 0.0185549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+  Time since last request: 36.695643 seconds.
+  path: Assets/Prefabs/Chunks/Chunk Prefab.prefab
+  artifactKey: Guid(e66b659a7f2f29c4496414893fbaa6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunks/Chunk Prefab.prefab using Guid(e66b659a7f2f29c4496414893fbaa6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bfa44628e4ce94e1b04485d8d434d81') in 0.0196444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.381868 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfe914f194cf175e3b87364d48a5f941') in 0.0177018 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Chunks/Lightpost Right.prefab
+  artifactKey: Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunks/Lightpost Right.prefab using Guid(9ade4577a5e6dd64a879006708d19cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15b6471da1671110b784beee3811aad9') in 0.0239367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
 
-========================================================================
-Received Import Request.
-  Time since last request: 26.064150 seconds.
-  path: Assets/Prefabs/Chunks/Lightpost Bothh.prefab
-  artifactKey: Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Chunks/Lightpost Bothh.prefab using Guid(16245122e4da47e43b999f7d3fa7e40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '569b6801a1c084216ff71a85fff89dc8') in 0.0201213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 197
-
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
