@@ -5046,6 +5046,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8756350130159442651, guid: 43b044b438ccc7241a258559fbb456fb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5750497590618269148, guid: 43b044b438ccc7241a258559fbb456fb, type: 3}
     m_RemovedGameObjects:
@@ -5101,6 +5105,8 @@ MonoBehaviour:
   collisionParticleSystem: {fileID: 4571421636894319865}
   boulderSmashAudioSource: {fileID: 4225453693327012332}
   shakeModifier: 10
+  cooldownMax: 1
+  cooldownTimer: 1
 --- !u!136 &6130588570329809904
 CapsuleCollider:
   m_ObjectHideFlags: 0
